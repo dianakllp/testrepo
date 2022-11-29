@@ -6,13 +6,117 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JavaScript page</title>
+    <link rel="stylesheet" href="mystyle.css">
+    <script type="text/javaScript" src="index.js" defer> </script>
 </head>
-
+<!-- <style>
+    /* body {
+        background-color: gray;
+    } */
+</style> -->
 <body>
     <header>
-        <h1 data-id="custom-id">My first project</h1>
+        <h1 data-id="custom-id" style="color:red; font-size:20px">My first project</h1>
         <p>Intro &#38; to <span>the </span><strong>JavaScript</strong></p>
     </header>
+    <section>
+        <p>Here is a new date</p>
+        <!-- <button onclick="Date()">Click here to see what is the date</button> -->
+    </section>
+    <section>
+        <h2>Here is the section we need to print</h2>
+        <button onclick="print_current_page()" value="Print">Print</button>
+    </section>
+    <section>
+        <h3>Please click a few times to reverse word</h3>
+        <button onclick="clickToReverse()">clickToReverse</button>
+    </section>
+    <section>
+        <h2>My first table</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="2">User results</th>
+                </tr>
+                <tr>
+                    <th>User name</th>
+                    <th>User points</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Karol</td>
+                    <td>200</td>
+                </tr>
+                <tr>
+                    <td>Michał</td>
+                    <td>100</td>
+                </tr>
+                <tr>
+                    <td>Karolina</td>
+                    <td>500</td>
+                </tr>
+                <tr>
+                    <td>Diana</td>
+                    <td>5</td>
+                </tr>
+            </tbody>
+            <tfoot></tfoot>
+        </table>
+    </section>
+    
+    <section>
+        <h2>My table with vertical header</h2>
+        <table>
+            <!-- <thead>
+                <tr>
+                    <th colspan="2">User results</th>
+                </tr>
+            </thead> -->
+            <tbody>
+                <tr>
+                    <th rowspan="1">User name</th>
+                    <td>Karol</td>
+                    <td>Michał</td>
+                    <td>Karolina</td>
+                    <td>Diana</td>
+                </tr>
+                <tr>
+                    <th rowspan="1">User points</th>
+                    <td>200</td>
+                    <td>100</td>
+                    <td>500</td>
+                    <td>5</td>
+                </tr>
+            </tbody>
+            <tfoot></tfoot>
+        </table>
+    </section>
+
+    <hr>
+    <section>
+        <div class="random-text-container"> Michaelmas term lately over, and the Lord Chancellor sitting in Lincoln's Inn Hall. Implacable November weather. As much mud in the streets as if the waters had but newly retired from the face of the earth.</div>
+    </section>
+    <div style="border: 1px solid transparent">
+    <div class="element"></div>
+    </div>
+    <div class="element"></div>
+
+    <div class="parent">
+        <strong class="inline1">inline 1</strong>
+        <strong class="inline2">inline 2</strong>
+        lorem ipsum
+      </div>
+
+    <div class="element" style="display: flex"></div>
+    <div class="element"></div>
+
+    <div class="element-with-border"></div>
+    <div class="element-with-border2 element-with-border"></div>
+    <div class="element-with-border3 element-with-border"></div>
+    <div class="element-with-border4 element-with-border"></div>
+
+
 </body>
 
 </html>

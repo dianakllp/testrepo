@@ -1,0 +1,85 @@
+h1, p {
+    margin: 0;
+}
+
+table {
+    width: 700px;
+    height: 500px; 
+    margin: auto; 
+    table-layout: fixed;
+
+}
+
+table, th, td {
+    border:  0.5px solid silver;
+    border-spacing: 0px;
+}
+
+td {
+    text-align: center;
+    /* width: 25px; */
+}
+
+.Sundaycells {
+    background-color: orangered;
+    color: aliceblue;
+}
+
+.kolkoiKrzyzyk {
+    background-color: whitesmoke;
+    color: black; 
+    font-size: 35px;
+    border: 2px solid grey;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.random-text-container {
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+}
+
+.element {
+    margin: 50px;
+  height: 100px;
+  background: red;
+}
+
+.inline1 {
+    margin: 20px;
+    background: red;
+    color: #fff;
+  }
+  
+  .inline2 {
+    margin: 20px;
+    background: blue;
+    color: #fff;
+  }
+
+  .element-with-border2.element-with-border {
+    border-width: 20px;
+    background: yellow;
+  }
+
+  .element-with-border {
+        border: 10px solid red;
+        width: 100px;
+        height: 100px;
+        margin: 30px;
+        background: blue;
+  }
+
+  .element-with-border3 {
+    border-width: 10px 20px 30px 40px;
+  }
+
+  .element-with-border4 {
+    border-style: solid;
+    border-top-width: 40px;
+    border-top-color: red;
+    border-right-color: blue;
+    border-bottom-color: green;
+    border-left-color: yellow;
+  }
+
